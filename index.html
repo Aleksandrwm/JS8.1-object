@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css/style.css">
+  	<meta charset="utf-8">
+</head>
+	<body>
+	<form id="reg" name="reg">
+		<input type="text" id="name" name="name" placeholder="Ваше имя"/>
+		<input type="text" id ="number"  name="number" placeholder="Номер телефона"></input>
+		<input type="button" value="Добавить" onclick="myForm();"/>
+	</form>
+<table>
+   <caption>Контакты</caption>
+	   <tr><th></th></tr>
+	   <button id="mybutton">Удалить</button>
+</table>
+	<script>
+		function myForm(){
+		var name = document.forms["reg"].elements["name"].
+		value;
+		var number = document.forms["reg"].elements["number"].
+		value;
+		var user={name,number};
+		var result=[user];
+		console.log(result);
+		
+		}
+	
+	
+	
+	
+	
+	</script>
+	</body>
+ 	

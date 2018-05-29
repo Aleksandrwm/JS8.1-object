@@ -1,0 +1,13 @@
+table {
+    border: 1px solid #ccc;  
+    width: 300px;
+}
+tr,th {
+    border: 1px solid #ccc; 
+    height: 30px;
+}
+#mybutton{
+	left:303px;
+	top:50px;
+	position:relative;
+}
